@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Autentificare - Test Temperament</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f7f6; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        .card { 
+            background: white; 
+            padding: 40px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            width: 380px; 
+        }
+        h2 { 
+            text-align: center; 
+            color: #2c3e50; 
+            margin-bottom: 25px; 
+        }
+        .error-msg { 
+            color: #e74c3c; 
+            background: #fdeaea; 
+            padding: 10px; 
+            border-radius: 4px; 
+            font-size: 14px; 
+            text-align: center; 
+            margin-bottom: 20px; 
+        }
+        form p { 
+            margin-bottom: 20px; 
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #444;
+        }
+        input { 
+            width: 100%; 
+            padding: 12px; 
+            box-sizing: border-box; 
+            border: 1px solid #ddd; 
+            border-radius: 6px; 
+            font-size: 16px;
+        }
+        input:focus {
+            outline: none;
+            border-color: #27ae60;
+            box-shadow: 0 0 5px rgba(39, 174, 96, 0.2);
+        }
+        button { 
+            width: 100%; 
+            padding: 12px; 
+            background: #27ae60; 
+            color: white; 
+            border: none; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            font-size: 18px; 
+            font-weight: bold;
+            margin-top: 10px; 
+            transition: background 0.3s;
+        }
+        button:hover { 
+            background: #219150; 
+        }
+        .footer-links { 
+            text-align: center; 
+            margin-top: 25px; 
+            font-size: 14px; 
+            color: #666;
+        }
+        .footer-links a {
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Autentificare</h2>
+        <p>
+        <h3><center>Bun venit la testul de temperament!</center></h3>
+        <center>Te rugăm să te autentifici pentru a efectua testul și/sau a-ți accesa rezultatele.</center>
+        </p>
+        
+        {% if form.errors %}
+            <div class="error-msg">
+                Utilizator sau parolă incorectă!
+            </div>
+        {% endif %}
+
+        <form method="post">
+            {% csrf_token %}
+            <div>
+                <p>
+                    <label for="id_username">Nume utilizator:</label>
+                    {{ form.username }}
+                </p>
+                <p>
+                    <label for="id_password">Parolă:</label>
+                    {{ form.password }}
+                </p>
+            </div>
+            <button type="submit">Intră în cont</button>
+        </form>
+
+        <div class="footer-links">
+            Nu ai un cont? <a href="{% url 'signup' %}">Înregistrează-te acum</a>
+        </div>
+    </div>
+</body>
+</html>

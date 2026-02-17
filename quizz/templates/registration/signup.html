@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Înregistrare - Test Temperament</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f7f6; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            padding: 20px; /* Previne lipirea de margini pe mobil */
+        }
+        .card { 
+            background: white; 
+            padding: 40px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            width: 100%;
+            max-width: 450px; /* Signup-ul are nevoie de puțin mai mult spațiu pentru textele de ajutor la parolă */
+        }
+        h2 { 
+            text-align: center; 
+            color: #2c3e50; 
+            margin-bottom: 25px; 
+        }
+        form p { 
+            margin-bottom: 15px; 
+            color: #666;
+            font-size: 0.9em;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #444;
+        }
+        /* Stilul pentru input-uri, identic cu cel de Login */
+        input { 
+            width: 100%; 
+            padding: 12px; 
+            box-sizing: border-box; 
+            border: 1px solid #ddd; 
+            border-radius: 6px; 
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        input:focus {
+            outline: none;
+            border-color: #27ae60;
+            box-shadow: 0 0 5px rgba(39, 174, 96, 0.2);
+        }
+        /* Stilul pentru textele de ajutor (helptext) de la Django */
+        .helptext {
+            display: block;
+            font-size: 0.8em;
+            color: #888;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        ul.errorlist {
+            color: #e74c3c;
+            padding-left: 0;
+            list-style: none;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+        button { 
+            width: 100%; 
+            padding: 12px; 
+            background: #27ae60; 
+            color: white; 
+            border: none; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            font-size: 18px; 
+            font-weight: bold;
+            margin-top: 15px; 
+            transition: background 0.3s;
+        }
+        button:hover { 
+            background: #219150; 
+        }
+        .footer-links { 
+            text-align: center; 
+            margin-top: 25px; 
+            font-size: 14px; 
+            color: #666;
+        }
+        .footer-links a {
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Creează un cont nou</h2>
+        
+        <form method="post">
+            {% csrf_token %}
+            {% for field in form %}
+                <p>
+                    <label for="{{ field.id_for_label }}">{{ field.label }}:</label>
+                    {{ field }}
+                    {% if field.help_text %}
+                        <span class="helptext">{{ field.help_text|safe }}</span>
+                    {% endif %}
+                    {% for error in field.errors %}
+                        <ul class="errorlist">
+                            <li>{{ error }}</li>
+                        </ul>
+                    {% endfor %}
+                </p>
+            {% endfor %}
+            <button type="submit">Înregistrează-te</button>
+        </form>
+
+        <div class="footer-links">
+            Ai deja un cont? <a href="{% url 'login' %}">Autentifică-te aici</a>
+        </div>
+    </div>
+</body>
+</html>

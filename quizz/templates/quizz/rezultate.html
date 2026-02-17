@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Rezultatele Tale</title>
+    <style>
+        /* Păstrăm stilurile anterioare și adăugăm pentru descrieri */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        h1, h2 { text-align: center; color: #1a1a1a; }
+        
+        .result-card { border: 1px solid #e1e4e8; padding: 25px; margin-bottom: 30px; border-radius: 10px; background-color: #fff; }
+        .date-badge { display: inline-block; background: #6c757d; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.9em; margin-bottom: 20px; }
+        
+        /* Grafice */
+        .chart-row { margin-bottom: 15px; }
+        .label-group { display: flex; justify-content: space-between; margin-bottom: 5px; font-weight: 600; }
+        .progress-bg { background-color: #e9ecef; border-radius: 8px; height: 25px; width: 100%; overflow: hidden; }
+        .progress-bar { height: 100%; transition: width 1s ease-in-out; }
+        
+        .bg-coleric { background-color: #e74c3c; }
+        .bg-sangvin { background-color: #f1c40f; }
+        .bg-flegmatic { background-color: #2ecc71; }
+        .bg-melancolic { background-color: #3498db; }
+
+        /* Secțiunea de Descrieri */
+        .interpretare-section { margin-top: 50px; border-top: 2px solid #eee; pt-40px; }
+        .temp-description { margin-bottom: 25px; padding: 20px; border-radius: 8px; border-left: 5px solid #ccc; background: #fafafa; }
+        .desc-coleric { border-left-color: #e74c3c; }
+        .desc-sangvin { border-left-color: #f1c40f; }
+        .desc-flegmatic { border-left-color: #2ecc71; }
+        .desc-melancolic { border-left-color: #3498db; }
+        .temp-title { font-weight: bold; font-size: 1.2em; margin-bottom: 8px; display: block; }
+
+        .actions { text-align: center; margin-top: 40px; display: flex; justify-content: center; gap: 20px; }
+        .btn { padding: 12px 25px; border-radius: 6px; text-decoration: none; font-weight: bold; color: white; }
+        .btn-again { background-color: #27ae60; }
+        .btn-logout { background-color: #95a5a6; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profilul tău de temperament, {{ user.username }}</h1>
+        
+        <div class="actions">
+            <a href="{% url 'pagina_test' %}" class="btn btn-again">Efectuează testul (din nou)</a>
+            <form action="{% url 'logout' %}" method="post" style="display: inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-logout">Ieșire</button>
+            </form>
+        </div>
+
+        <br ><br>
+
+        {% for r in rezultate %}
+            <div class="result-card">
+                <span class="date-badge">Test efectuat la: {{ r.data_completarii|date:"d F Y, H:i" }}</span>
+                
+                <div class="chart-row">
+                    <div class="label-group"><span>Coleric</span> <span>{{ r.procent_coleric }}%</span></div>
+                    <div class="progress-bg"><div class="progress-bar bg-coleric" style="width: {{ r.procent_coleric }}%"></div></div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="label-group"><span>Sangvin</span> <span>{{ r.procent_sangvin }}%</span></div>
+                    <div class="progress-bg"><div class="progress-bar bg-sangvin" style="width: {{ r.procent_sangvin }}%"></div></div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="label-group"><span>Flegmatic</span> <span>{{ r.procent_flegmatic }}%</span></div>
+                    <div class="progress-bg"><div class="progress-bar bg-flegmatic" style="width: {{ r.procent_flegmatic }}%"></div></div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="label-group"><span>Melancolic</span> <span>{{ r.procent_melancolic }}%</span></div>
+                    <div class="progress-bg"><div class="progress-bar bg-melancolic" style="width: {{ r.procent_melancolic }}%"></div></div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <div class="interpretare-section">
+            <h2>Ce înseamnă aceste rezultate?</h2>
+            
+            <div class="temp-description desc-coleric">
+                <span class="temp-title" style="color: #e74c3c;">Colericul</span>
+                <p>Colericul este energic, neliniștit, impetuos, irascibil, uneori impulsiv și își risipește energia. El este inegal în manifestări. Stările afective se succed cu rapiditate. Oscilează între entuziasm și decepție, având tendința de exagerare în tot ceea ce face. Este o persoană foarte expresivă, ușor „de citit”, gândurile și emoțiile i se succed cu repeziciune. Are tendința de dominare în grup și se dăruiește cu pasiune unei idei sau cauze.</p>
+            </div>
+
+            <div class="temp-description desc-sangvin">
+                <span class="temp-title" style="color: #d4ac0d;">Sangvinicul</span>
+                <p>Sangvinicul se caracterizează prin ritmicitate și echilibru. Este vioi, vesel, optimist și se adaptează cu ușurință la orice situație. Fire activă, schimbă activitățile foarte des deoarece simte permanent nevoia de ceva nou. Trăirile afective sunt intense, dar sentimentele sunt superficiale și instabile. Trece cu ușurință peste eșecuri sau decepții sentimentale și stabilește ușor contacte cu alte persoane.</p>
+            </div>
+
+            <div class="temp-description desc-flegmatic">
+                <span class="temp-title" style="color: #2ecc71;">Flegmaticul</span>
+                <p>Flegmaticul este liniștit, calm, imperturbabil, cugetat în tot ceea ce face, pare a dispune de o răbdare fără margini. Are o putere de muncă deosebită, poate obține performanțe deosebite mai ales în muncile de lungă durată și este foarte tenace, meticulos în tot ceea ce face. Fire închisă, greu adaptabilă, puțin comunicativă, preferă activitățile individuale.</p>
+            </div>
+
+            <div class="temp-description desc-melancolic">
+                <span class="temp-title" style="color: #3498db;">Melancolicul</span>
+                <p>Melancolicul este la fel de lent și inexpresiv ca flegmaticul, dar îi lipsește forța și vigoarea acestuia. Emotiv și sensibil, are o viață interioară agitată datorită unor exagerate exigențe față de sine și a unei neîncrederi în forțele proprii. Este puțin rezistent la eforturi îndelungate. Puțin comunicativ, închis în sine, melancolicul are dificultăți de adaptare socială. Debitul verbal este scăzut, gesticulația redusă.</p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
