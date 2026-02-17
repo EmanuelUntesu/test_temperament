@@ -1,9 +1,6 @@
-# 🧠 Test de Temperament (Eysenck/Pavlov Based)
+# Test de Temperament (Scop educațional)
 
 Aplicație web dezvoltată în Django pentru evaluarea temperamentului bazată pe cele patru tipologii clasice: **Coleric, Sangvin, Flegmatic și Melancolic**. Utilizatorii pot completa un test de 80 de întrebări și pot vizualiza rezultatele sub formă de grafice comparative.
-
-![Versiune Django](https://img.shields.io/badge/Django-6.0.2-green)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
 ## Funcționalități
 -  **Autentificare completă**: Înregistrare utilizator, Login și Logout.
