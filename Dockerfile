@@ -13,10 +13,11 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiem tot proiectul în "cutie"
+RUN mkdir -p /app/data && chmod 777 /app/data
 COPY . /app/
 
 # Portul pe care va rula Django
 EXPOSE 8000
 
 # Comanda care pornește aplicația
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["sh", "-c", "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]

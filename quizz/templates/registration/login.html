@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="ro">
+{% load i18n %}
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
-    <title>Autentificare - Test Temperament</title>
+    <title>{% translate "Autentificare - Test Temperament" %}</title>
     <style>
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -19,11 +20,41 @@
             border-radius: 12px; 
             box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
             width: 380px; 
+            position: relative;
         }
+        /* Stil pentru butoanele de limbă */
+        .lang-switcher {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            gap: 10px;
+        }
+        .lang-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+        }
+        .lang-btn:hover, .lang-btn.active {
+            opacity: 1;
+        }
+        .lang-btn img {
+            width: 24px;
+            height: auto;
+            border-radius: 2px;
+        }
+
         h2 { 
             text-align: center; 
             color: #2c3e50; 
             margin-bottom: 25px; 
+        }
+        .welcome-text {
+            text-align: center;
+            margin-bottom: 20px;
         }
         .error-msg { 
             color: #e74c3c; 
@@ -51,12 +82,7 @@
             border-radius: 6px; 
             font-size: 16px;
         }
-        input:focus {
-            outline: none;
-            border-color: #27ae60;
-            box-shadow: 0 0 5px rgba(39, 174, 96, 0.2);
-        }
-        button { 
+        button.submit-btn { 
             width: 100%; 
             padding: 12px; 
             background: #27ae60; 
@@ -69,7 +95,7 @@
             margin-top: 10px; 
             transition: background 0.3s;
         }
-        button:hover { 
+        button.submit-btn:hover { 
             background: #219150; 
         }
         .footer-links { 
@@ -83,22 +109,53 @@
             text-decoration: none;
             font-weight: bold;
         }
-        .footer-links a:hover {
-            text-decoration: underline;
+        /* Container pentru a poziționa butonul de vizibilitate */
+        .password-wrapper {
+            position: relative;
+            display: block;
         }
+
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-size: 14px;
+            color: #666;
+            padding: 5px;
+            z-index: 10;
+        }        
     </style>
 </head>
 <body>
     <div class="card">
-        <h2>Autentificare</h2>
-        <p>
-        <h3><center>Bun venit la testul de temperament!</center></h3>
-        <center>Te rugăm să te autentifici pentru a efectua testul și/sau a-ți accesa rezultatele.</center>
-        </p>
+        <div class="lang-switcher">
+            <form action="{% url 'set_language' %}" method="post">
+                {% csrf_token %}
+                <input name="next" type="hidden" value="{{ request.get_full_path }}">
+                
+                <button type="submit" name="language" value="ro" class="lang-btn {% if LANGUAGE_CODE == 'ro' %}active{% endif %}">
+                    <img src="https://flagcdn.com/w40/ro.png" alt="Română" title="Română">
+                </button>
+                <button type="submit" name="language" value="fr" class="lang-btn {% if LANGUAGE_CODE == 'fr' %}active{% endif %}">
+                    <img src="https://flagcdn.com/w40/fr.png" alt="Français" title="Français">
+                </button>
+            </form>
+        </div>
+
+        <h2>{% translate "Autentificare" %}</h2>
+        
+        <div class="welcome-text">
+            <h3>{% translate "Bun venit la testul de temperament!" %}</h3>
+            <p>{% translate "Te rugăm să te autentifici pentru a efectua testul și/sau a-ți accesa rezultatele." %}</p>
+        </div>
         
         {% if form.errors %}
             <div class="error-msg">
-                Utilizator sau parolă incorectă!
+                {% translate "Utilizator sau parolă incorectă!" %}
             </div>
         {% endif %}
 
@@ -106,20 +163,46 @@
             {% csrf_token %}
             <div>
                 <p>
-                    <label for="id_username">Nume utilizator:</label>
+                    <label for="id_username">{% translate "Nume utilizator" %}:</label>
                     {{ form.username }}
                 </p>
                 <p>
-                    <label for="id_password">Parolă:</label>
+                    <label for="id_password">{% translate "Parolă" %}:</label>
                     {{ form.password }}
                 </p>
             </div>
-            <button type="submit">Intră în cont</button>
+            <button type="submit" class="submit-btn">{% translate "Intră în cont" %}</button>
         </form>
 
         <div class="footer-links">
-            Nu ai un cont? <a href="{% url 'signup' %}">Înregistrează-te acum</a>
+            {% translate "Nu ai un cont?" %} <a href="{% url 'signup' %}">{% translate "Înregistrează-te acum" %}</a>
         </div>
     </div>
+    <script>
+        document.querySelectorAll('input[type="password"]').forEach(function(passwordInput) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'password-wrapper';
+            passwordInput.parentNode.insertBefore(wrapper, passwordInput);
+            wrapper.appendChild(passwordInput);
+
+            const toggleBtn = document.createElement('button');
+            toggleBtn.type = 'button';
+            toggleBtn.className = 'toggle-password';
+            // Simbolul inițial (parola este ascunsă)
+            toggleBtn.innerHTML = '&#128274;'; // Codul pentru lăcătel închis 🔒
+            toggleBtn.style.fontSize = '18px';
+            wrapper.appendChild(toggleBtn);
+
+            toggleBtn.addEventListener('click', function() {
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    this.innerHTML = '&#128275;'; // Lăcătel deschis 🔓
+                } else {
+                    passwordInput.type = 'password';
+                    this.innerHTML = '&#128274;'; // Lăcătel închis 🔒
+                }
+            });
+        });
+    </script>    
 </body>
 </html>

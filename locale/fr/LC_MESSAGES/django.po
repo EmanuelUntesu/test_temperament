@@ -1,0 +1,1903 @@
+# Traducere Test Temperament - Franceză
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:47+0100\n"
+"PO-Revision-Date: 2026-02-18 12:15+0100\n"
+"Last-Translator: Gemini\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\quizz\questions.py:4
+msgid ""
+"Eu am succes acolo unde alții nu au, dar nu pentru că eu fac planuri mai "
+"bune, ci pentru că eu insist, în timp ce alții se descurajează și renunță."
+msgstr ""
+"Je réussis là où d'autres échouent, non pas grâce à de meilleurs plans, mais "
+"parce que je persévère quand les autres se découragent et abandonnent."
+
+#: .\quizz\questions.py:5
+msgid ""
+"Firea mea calmă mă ajută să stau liniștit în fața tulburărilor și stresului."
+msgstr ""
+"Ma nature calme m'aide à rester serein face à l'agitation et au stress."
+
+#: .\quizz\questions.py:6
+msgid ""
+"Atunci când îmi fac planuri, cred că am capacitatea să identific destul de "
+"exact piedicile și pericolele."
+msgstr ""
+"Quand je fais des projets, je pense avoir la capacité d'identifier assez "
+"précisément les obstacles et les dangers."
+
+#: .\quizz\questions.py:7
+msgid "Mă deranjează entuziasmul unor oameni și cred că uneori îi «înțep»."
+msgstr ""
+"L'enthousiasme de certaines personnes m'agace et je pense qu'il m'arrive de "
+"les « piquer »."
+
+#: .\quizz\questions.py:8
+msgid ""
+"De obicei, aștept ca alții să intre în discuție cu mine, să mă abordeze."
+msgstr ""
+"D'habitude, j'attends que les autres engagent la conversation avec moi ou "
+"m'abordent."
+
+#: .\quizz\questions.py:9
+msgid ""
+"Aptitudinile mele de conducător sunt rezultatul stăruinței și efortului. Ele "
+"nu sunt un dar natural."
+msgstr ""
+"Mes aptitudes de leader sont le résultat de ma persévérance et de mes "
+"efforts. Ce n'est pas un don naturel."
+
+#: .\quizz\questions.py:10
+msgid ""
+"Îmi este greu să vorbesc cu alții, dar îmi este ușor să-i evaluez și să-i "
+"analizez."
+msgstr ""
+"J'ai du mal à parler aux autres, mais il m'est facile de les évaluer et de "
+"les analyser."
+
+#: .\quizz\questions.py:11
+msgid ""
+"Adesea întârzii la întâlniri și constat că uit hotărârile care s-au luat."
+msgstr ""
+"Je suis souvent en retard aux rendez-vous et je remarque que j'oublie les "
+"décisions qui ont été prises."
+
+#: .\quizz\questions.py:12
+msgid ""
+"Nu sunt o persoană cu foarte mulți prieteni, dar sunt profund atașată de "
+"prietenii pe care îi am."
+msgstr ""
+"Je n'ai pas énormément d'amis, mais je suis profondément attaché à ceux que "
+"j'ai."
+
+#: .\quizz\questions.py:13
+msgid ""
+"Mă influențează oamenii și situațiile în care mă aflu. De exemplu: dacă "
+"ceilalți sunt harnici, sunt și eu; dacă ei sunt leneși, lenevesc și eu."
+msgstr ""
+"Je suis influencé par les gens et les situations. Par exemple, si les autres "
+"sont travailleurs, je le suis aussi ; s'ils sont paresseux, je le deviens "
+"aussi."
+
+#: .\quizz\questions.py:14
+msgid ""
+"Întotdeauna știu ce trebuie să fac, și dacă trebuie să fac ceva, nu sunt "
+"mulțumit până nu-mi termin munca."
+msgstr ""
+"Je sais toujours ce que j'ai à faire et je ne suis pas satisfait tant que "
+"mon travail n'est pas terminé."
+
+#: .\quizz\questions.py:15
+msgid ""
+"De regulă, prefer activitățile de unul singur (de exemplu lectura), în locul "
+"activităților care implică și pe alții."
+msgstr ""
+"En général, je préfère les activités solitaires (comme la lecture) aux "
+"activités de groupe."
+
+#: .\quizz\questions.py:16
+msgid ""
+"Revin de nenumărate ori asupra unei decizii pe care am luat-o, întrebându-mă "
+"dacă am luat decizia cea bună."
+msgstr ""
+"Je reviens sans cesse sur mes décisions, en me demandant si j'ai fait le bon "
+"choix."
+
+#: .\quizz\questions.py:17
+msgid ""
+"Câteodată ajut pe cineva fără tragere de inimă, pentru că știu că pot să fac "
+"un plan mai bun și mai ușor de realizat."
+msgstr ""
+"Parfois, j'aide quelqu'un à contrecœur parce que je sais que je pourrais "
+"élaborer un plan meilleur et plus simple."
+
+#: .\quizz\questions.py:18
+msgid "Adesea mă gândesc la persoanele care m-au insultat. Nu le uit."
+msgstr ""
+"Je pense souvent aux personnes qui m'ont offensé. Je ne les oublie pas."
+
+#: .\quizz\questions.py:19
+msgid ""
+"Îmi place să mă bucur de viață și se pare că atitudinea mea îi molipsește pe "
+"cei din jur."
+msgstr ""
+"J'aime profiter de la vie et il semble que mon attitude soit contagieuse "
+"pour mon entourage."
+
+#: .\quizz\questions.py:20
+msgid "Mă cercetez adesea și retrăiesc evenimentele din trecut."
+msgstr "Je m'analyse souvent et je revis les événements du passé."
+
+#: .\quizz\questions.py:21
+msgid ""
+"Am o minte ascuțită și sunt capabil să fac planuri foarte bune, chiar și pe "
+"termen lung."
+msgstr ""
+"J'ai l'esprit vif et je suis capable de faire d'excellents plans, même à "
+"long terme."
+
+#: .\quizz\questions.py:22
+msgid ""
+"Poate aș fi mai sociabil dacă nu mi-ar fi teamă că oamenii mă vor respinge."
+msgstr ""
+"Je serais peut-être plus sociable si je ne craignais pas d'être rejeté par "
+"les autres."
+
+#: .\quizz\questions.py:23
+msgid "Îmi place să fiu acolo unde se întâmplă ceva."
+msgstr "J'aime être là où il se passe quelque chose."
+
+#: .\quizz\questions.py:24
+msgid "Sunt mâhnit când ceilalți mă ignoră sau mă evită."
+msgstr "Je suis attristé quand les autres m'ignorent ou m'évitent."
+
+#: .\quizz\questions.py:25
+msgid ""
+"Unii îmi spun că sunt născut să fiu conducător, datorită tendinței mele de a "
+"lua comanda."
+msgstr ""
+"Certains disent que je suis né pour être un leader, à cause de ma tendance à "
+"prendre les commandes."
+
+#: .\quizz\questions.py:26
+msgid "Știu unde am de gând să ajung și, de obicei, îmi impun să ajung acolo."
+msgstr "Je sais où je veux aller et, en général, je m'efforce d'y parvenir."
+
+#: .\quizz\questions.py:27
+msgid "În general, nu-i uit pe cei care m-au jignit."
+msgstr "En général, je n'oublie pas ceux qui m'ont offensé."
+
+#: .\quizz\questions.py:28
+msgid "Mă emoționez repede. Tot ce se întâmplă în jur mă afectează."
+msgstr "Je m'émeus rapidement. Tout ce qui se passe autour de moi m'affecte."
+
+#: .\quizz\questions.py:29
+msgid ""
+"Trebuie să se întâmple ceva ieșit din comun ca să mă emoționeze și să mă "
+"afecteze."
+msgstr ""
+"Il faut qu'il arrive quelque chose d'extraordinaire pour que je sois ému ou "
+"touché."
+
+#: .\quizz\questions.py:30
+msgid "Răspunsurile mele emoționale sunt echilibrate."
+msgstr "Mes réactions émotionnelles sont équilibrées."
+
+#: .\quizz\questions.py:31
+msgid "Când văd că doi oameni râd, mă întreb dacă nu cumva râd de mine."
+msgstr ""
+"Quand je vois deux personnes rire, je me demande si elles ne se moquent pas "
+"de moi."
+
+#: .\quizz\questions.py:32
+msgid "Am o stare sufletească destul de constantă, fără prea multe oscilații."
+msgstr "Mon humeur est assez constante, sans trop d'oscillations."
+
+#: .\quizz\questions.py:33
+msgid ""
+"Prietenii mei m-ar descrie ca pe un om relaxat, cu un temperament echilibrat."
+msgstr ""
+"Mes amis me décriraient comme quelqu'un de détendu, avec un tempérament "
+"équilibré."
+
+#: .\quizz\questions.py:34
+msgid ""
+"Ar trebui să mă cunosc mai bine; am tendința de a-mi subestima capacitățile."
+msgstr ""
+"Je devrais mieux me connaître ; j'ai tendance à sous-estimer mes capacités."
+
+#: .\quizz\questions.py:35
+msgid "Dacă trebuie să fac ceva, o fac, oricât ar fi de neplăcut."
+msgstr ""
+"Si je dois faire quelque chose, je le fais, aussi désagréable que ce soit."
+
+#: .\quizz\questions.py:36
+msgid "Mă gândesc adesea la visurile, speranțele și năzuințele mele."
+msgstr "Je pense souvent à mes rêves, mes espoirs et mes aspirations."
+
+#: .\quizz\questions.py:37
+msgid ""
+"Pot să mă împac cu neîmplinirile mele, fără să ajung deprimat sau mânios."
+msgstr "Je peux accepter mes échecs sans devenir déprimé ou en colère."
+
+#: .\quizz\questions.py:38
+msgid ""
+"Îmi fac prieteni noi cu atâta ușurință, încât tind să-i uit pe cei vechi."
+msgstr ""
+"Je me fais de nouveaux amis si facilement que j'ai tendance à oublier les "
+"anciens."
+
+#: .\quizz\questions.py:39
+msgid ""
+"Îmi place să fac parte din diferite grupuri și să am preocupări variate."
+msgstr ""
+"J'aime faire partie de différents groupes et avoir des centres d'intérêt "
+"variés."
+
+#: .\quizz\questions.py:40
+msgid "Sunt înclinat spre gânduri pesimiste și sumbre."
+msgstr "J'ai tendance à avoir des pensées pessimistes et sombres."
+
+#: .\quizz\questions.py:41
+msgid "Adesea mi-e greu să termin ceea ce am început."
+msgstr "J'ai souvent du mal à terminer ce que j'ai commencé."
+
+#: .\quizz\questions.py:42
+msgid "Între oameni, sunt spontan și vorbăreț."
+msgstr "En société, je suis spontané et bavard."
+
+#: .\quizz\questions.py:43
+msgid "De obicei nu mă simt bine în grup."
+msgstr "D'habitude, je ne me sens pas à l'aise en groupe."
+
+#: .\quizz\questions.py:44
+msgid "Îmi plac oamenii și tind să fiu mereu printre ei."
+msgstr "J'aime les gens et j'ai tendance à toujours vouloir être entouré."
+
+#: .\quizz\questions.py:45
+msgid "Cred că n-ar trebui să fiu așa de capricios și sensibil."
+msgstr "Je pense que je ne devrais pas être aussi capricieux et sensible."
+
+#: .\quizz\questions.py:46
+msgid "De obicei sunt defensiv, nu ofensiv."
+msgstr "Je suis généralement sur la défensive, plutôt qu'offensif."
+
+#: .\quizz\questions.py:47
+msgid ""
+"Câteodată mă gândesc să mă răzbun pentru răul care mi s-a făcut vreodată."
+msgstr "Parfois, je songe à me venger du mal que l'on m'a fait."
+
+#: .\quizz\questions.py:48
+msgid "Piedicile mă fac și mai hotărât."
+msgstr "Les obstacles me rendent encore plus déterminé."
+
+#: .\quizz\questions.py:49
+msgid "Am o viață sufletească profundă."
+msgstr "J'ai une vie intérieure profonde."
+
+#: .\quizz\questions.py:50
+msgid "Îmi place să-mi organizez planurile din timp."
+msgstr "J'aime organiser mes projets à l'avance."
+
+#: .\quizz\questions.py:51
+msgid "Sunt prietenos. Sunt plin de viață și-mi place să trăiesc."
+msgstr ""
+"Je suis amical. Je suis plein de vie et j'aime croquer la vie à pleines "
+"dents."
+
+#: .\quizz\questions.py:52
+msgid "Se pare că, din fire, sunt un împăciuitor destul de bun."
+msgstr "Il semble que je sois, par nature, un assez bon médiateur."
+
+#: .\quizz\questions.py:53
+msgid "Prietenii mă consideră o persoană cu tact."
+msgstr "Mes amis me considèrent comme quelqu'un de diplomate."
+
+#: .\quizz\questions.py:54
+msgid "Sunt destul de îngăduitor cu ceilalți."
+msgstr "Je suis assez indulgent envers les autres."
+
+#: .\quizz\questions.py:55
+msgid "De obicei îmi organizez foarte bine lucrul."
+msgstr "D'habitude, j'organise très bien mon travail."
+
+#: .\quizz\questions.py:56
+msgid ""
+"Când lucrurile nu merg cum trebuie, nu mă dau bătut, ci sunt mai hotărât să "
+"le duc până la capăt."
+msgstr ""
+"Quand les choses tournent mal, je n'abandonne pas ; au contraire, je suis "
+"plus déterminé à les mener à bien."
+
+#: .\quizz\questions.py:57
+msgid "Am darul să rezolv problemele."
+msgstr "J'ai le don de résoudre les problèmes."
+
+#: .\quizz\questions.py:58
+msgid "Sunt calm, liniștit și echilibrat."
+msgstr "Je suis calme, paisible et équilibré."
+
+#: .\quizz\questions.py:59
+msgid "Am tendința să mă simt jignit foarte ușor."
+msgstr "J'ai tendance à me vexer très facilement."
+
+#: .\quizz\questions.py:60
+msgid "Mă consider o persoană sociabilă, bine dispusă."
+msgstr "Je me considère comme une personne sociable et de bonne humeur."
+
+#: .\quizz\questions.py:61
+msgid "Am tendința să mă auto-compătimesc."
+msgstr "J'ai tendance à m'apitoyer sur mon sort."
+
+#: .\quizz\questions.py:62
+msgid "Sunt o persoană destul de curajoasă în public."
+msgstr "Je suis quelqu'un d'assez courageux en public."
+
+#: .\quizz\questions.py:63
+msgid "Unul dintre punctele mele tari este voința puternică."
+msgstr "L'un de mes points forts est ma forte volonté."
+
+#: .\quizz\questions.py:64
+msgid "Mă simt foarte bine când particip la serbări."
+msgstr "Je me sens très bien quand je participe à des fêtes ou célébrations."
+
+#: .\quizz\questions.py:65
+msgid "De obicei îmi este ușor să-mi fac noi prieteni."
+msgstr "En général, il m'est facile de me faire de nouveaux amis."
+
+#: .\quizz\questions.py:66
+msgid "Stilul meu de viață este rapid, precipitat și activ."
+msgstr "Mon style de vie est rapide, vif et actif."
+
+#: .\quizz\questions.py:67
+msgid "Trebuie să învăț să nu mă îngrijorez atât de mult."
+msgstr "Je dois apprendre à ne pas m'inquiéter autant."
+
+#: .\quizz\questions.py:68
+msgid "De obicei, acționez și vorbesc lent și calm."
+msgstr "D'habitude, j'agis et je parle lentement et calmement."
+
+#: .\quizz\questions.py:69
+msgid "Am tendința să mă tot gândesc la aceleași lucruri."
+msgstr "J'ai tendance à ressasser les mêmes choses."
+
+#: .\quizz\questions.py:70
+msgid "Sunt o persoană cu care ceilalți se înțeleg destul de ușor."
+msgstr "Je suis quelqu'un avec qui il est assez facile de s'entendre."
+
+#: .\quizz\questions.py:71
+msgid "De regulă, termin ce am început."
+msgstr "En règle générale, je finis ce que je commence."
+
+#: .\quizz\questions.py:72
+msgid "Nu mi se întâmplă prea des să fiu întors pe dos."
+msgstr "Il est rare que je sois bouleversé."
+
+#: .\quizz\questions.py:73
+msgid "Rareori rămân în pană de cuvinte."
+msgstr "Je manque rarement de mots."
+
+#: .\quizz\questions.py:74
+msgid "De obicei, mă bucur din plin de viață."
+msgstr "D'habitude, je profite pleinement de la vie."
+
+#: .\quizz\questions.py:75
+msgid "Prietenii mei ar spune că sunt extrovertit (deschis)."
+msgstr "Mes amis diraient que je suis extraverti (ouvert)."
+
+#: .\quizz\questions.py:76
+msgid "Adesea sunt înclinat să mă analizez."
+msgstr "Je suis souvent enclin à m'auto-analyser."
+
+#: .\quizz\questions.py:77
+msgid "Îndatoririle neterminate mă supără destul de mult."
+msgstr "Les tâches inachevées me dérangent beaucoup."
+
+#: .\quizz\questions.py:78
+msgid "Nu-mi ies prea ușor din fire."
+msgstr "Je ne me mets pas facilement en colère."
+
+#: .\quizz\questions.py:79
+msgid "De obicei, muncesc din greu și cu stăruință."
+msgstr "D'habitude, je travaille dur et avec persévérance."
+
+#: .\quizz\questions.py:80
+msgid "Nu-mi plac persoanele care mi se împotrivesc."
+msgstr "Je n'aime pas les personnes qui s'opposent à moi."
+
+#: .\quizz\questions.py:81
+msgid "Rareori se întâmplă să mă mânii sau să mă las stăpânit de emoții."
+msgstr ""
+"Il m'arrive rarement de me mettre en colère ou d'être submergé par mes "
+"émotions."
+
+#: .\quizz\questions.py:82
+msgid "Îmi este greu să-mi fac noi prieteni."
+msgstr "J'ai du mal à me faire de nouveaux amis."
+
+#: .\quizz\questions.py:83
+msgid "Poate că n-ar trebui să fiu așa de leneș."
+msgstr "Je ne devrais peut-être pas être aussi paresseux."
+
+#: .\quizz\templates\quizz\rezultate.html:6
+msgid "Rezultatele Tale"
+msgstr "Vos résultats"
+
+#: .\quizz\templates\quizz\rezultate.html:61
+msgid "Profilul tău de temperament"
+msgstr "Votre profil de tempérament"
+
+#: .\quizz\templates\quizz\rezultate.html:64
+msgid "Efectuează testul (din nou)"
+msgstr "Repassez le test (à nouveau)"
+
+#: .\quizz\templates\quizz\rezultate.html:67
+#: .\quizz\templates\quizz\test.html:99
+msgid "Ieșire"
+msgstr "Déconnexion"
+
+#: .\quizz\templates\quizz\rezultate.html:75
+msgid "Test efectuat la"
+msgstr "Test effectué à"
+
+#: .\quizz\templates\quizz\rezultate.html:78
+msgid "Coleric"
+msgstr "Colérique"
+
+#: .\quizz\templates\quizz\rezultate.html:83
+msgid "Sangvin"
+msgstr "Sanguin"
+
+#: .\quizz\templates\quizz\rezultate.html:88
+msgid "Flegmatic"
+msgstr "Flegmatique"
+
+#: .\quizz\templates\quizz\rezultate.html:93
+msgid "Melancolic"
+msgstr "Mélancolique"
+
+#: .\quizz\templates\quizz\rezultate.html:100
+msgid "Ce înseamnă aceste rezultate?"
+msgstr "Que signifient ces résultats ?"
+
+#: .\quizz\templates\quizz\rezultate.html:103
+msgid "Colericul"
+msgstr "Colérique"
+
+#: .\quizz\templates\quizz\rezultate.html:104
+msgid ""
+"Colericul este energic, neliniștit, impetuos, irascibil, uneori impulsiv și "
+"își risipește energia. El este inegal în manifestări. Stările afective se "
+"succed cu rapiditate. Oscilează între entuziasm și decepție, având tendința "
+"de exagerare în tot ceea ce face. Este o persoană foarte expresivă, ușor „de "
+"citit”, gândurile și emoțiile i se succed cu repeziciune. Are tendința de "
+"dominare în grup și se dăruiește cu pasiune unei idei sau cauze."
+msgstr ""
+"Le colérique est énergique, inquiet, impétueux, irascible, parfois impulsif "
+"et gaspille son énergie. Ses manifestations sont inégales. Ses états "
+"affectifs se succèdent rapidement. Il oscille entre enthousiasme et "
+"déception, avec une tendance à l'exagération dans tout ce qu'il fait. C'est "
+"une personne très expressive, facile à « lire », dont les pensées et les "
+"émotions s'enchaînent avec rapidité. Il a tendance à dominer le groupe et se "
+"donne avec passion pour une idée ou une cause."
+
+#: .\quizz\templates\quizz\rezultate.html:108
+msgid "Sangvinicul"
+msgstr "Le sanguin"
+
+#: .\quizz\templates\quizz\rezultate.html:109
+msgid ""
+"Sangvinicul se caracterizează prin ritmicitate și echilibru. Este vioi, "
+"vesel, optimist și se adaptează cu ușurință la orice situație. Fire activă, "
+"schimbă activitățile foarte des deoarece simte permanent nevoia de ceva nou. "
+"Trăirile afective sunt intense, dar sentimentele sunt superficiale și "
+"instabile. Trece cu ușurință peste eșecuri sau decepții sentimentale și "
+"stabilește ușor contacte cu alte persoane."
+msgstr ""
+"Le sanguin se caractérise par la régularité et l'équilibre. Il est vif, "
+"joyeux, optimiste et s'adapte facilement à toutes les situations. D'un "
+"tempérament actif, il change souvent d'activité car il ressent un besoin "
+"permanent de nouveauté. Ses expériences affectives sont intenses, mais ses "
+"sentiments restent superficiels et instables. Il surmonte facilement les "
+"échecs ou les déceptions sentimentales et noue aisément des contacts avec "
+"autrui."
+
+#: .\quizz\templates\quizz\rezultate.html:113
+msgid "Flegmaticul"
+msgstr "Le flegmatique"
+
+#: .\quizz\templates\quizz\rezultate.html:114
+msgid ""
+"Flegmaticul este liniștit, calm, imperturbabil, cugetat în tot ceea ce face, "
+"pare a dispune de o răbdare fără margini. Are o putere de muncă deosebită, "
+"poate obține performanțe deosebite mai ales în muncile de lungă durată și "
+"este foarte tenace, meticulos în tot ceea ce face. Fire închisă, greu "
+"adaptabilă, puțin comunicativă, preferă activitățile individuale."
+msgstr ""
+"Le flegmatique est tranquille, calme, imperturbable et réfléchi dans tout ce "
+"qu'il fait, semblant disposer d'une patience illimitée. Il possède une "
+"grande capacité de travail, peut atteindre des performances remarquables "
+"notamment dans les tâches de longue durée et se montre très tenace et "
+"méticuleux. D'un tempérament réservé, il s'adapte difficilement, communique "
+"peu et préfère les activités individuelles."
+
+#: .\quizz\templates\quizz\rezultate.html:118
+msgid "Melancolicul"
+msgstr "Le mélancolique"
+
+#: .\quizz\templates\quizz\rezultate.html:119
+msgid ""
+"Melancolicul este la fel de lent și inexpresiv ca flegmaticul, dar îi "
+"lipsește forța și vigoarea acestuia. Emotiv și sensibil, are o viață "
+"interioară agitată datorită unor exagerate exigențe față de sine și a unei "
+"neîncrederi în forțele proprii. Este puțin rezistent la eforturi "
+"îndelungate. Puțin comunicativ, închis în sine, melancolicul are dificultăți "
+"de adaptare socială. Debitul verbal este scăzut, gesticulația redusă."
+msgstr ""
+"Le mélancolique est aussi lent et inexpressif que le flegmatique, mais il "
+"manque de la force et de la vigueur de ce dernier. Émotif et sensible, il "
+"possède une vie intérieure agitée en raison d'exigences excessives envers "
+"lui-même et d'un manque de confiance en ses propres capacités. Il résiste "
+"peu aux efforts prolongés. Peu communicatif et renfermé, le mélancolique "
+"éprouve des difficultés d'adaptation sociale. Son débit verbal est faible et "
+"sa gestuelle réduite."
+
+#: .\quizz\templates\quizz\test.html:6
+#, fuzzy
+#| msgid "Bun venit la testul de temperament!"
+msgid "Test de Temperament"
+msgstr "Bienvenue au test de tempérament !"
+
+#: .\quizz\templates\quizz\test.html:79
+msgid "Salut"
+msgstr "Bonjour"
+
+#: .\quizz\templates\quizz\test.html:105
+msgid "Răspunde la toate cele 80 de întrebări pentru un rezultat precis:"
+msgstr "Répondez aux 80 questions pour obtenir un résultat précis :"
+
+#: .\quizz\templates\quizz\test.html:116
+msgid "DA"
+msgstr "OUI"
+
+#: .\quizz\templates\quizz\test.html:119
+msgid "NU"
+msgstr "NON"
+
+#: .\quizz\templates\quizz\test.html:127
+msgid "&&&"
+msgstr "***"
+
+#: .\quizz\templates\quizz\test.html:133
+msgid "Calculează Temperamentul"
+msgstr "Calculer le tempérament"
+
+#: .\quizz\templates\quizz\test.html:136
+msgid "Vezi rezultatele anterioare fără a termina testul"
+msgstr "Consulter les résultats précédents sans terminer le test"
+
+#: .\quizz\templates\registration\login.html:6
+msgid "Autentificare - Test Temperament"
+msgstr "Connexion - Test de Tempérament"
+
+#: .\quizz\templates\registration\login.html:149
+msgid "Autentificare"
+msgstr "Connexion"
+
+#: .\quizz\templates\registration\login.html:152
+msgid "Bun venit la testul de temperament!"
+msgstr "Bienvenue au test de tempérament !"
+
+#: .\quizz\templates\registration\login.html:153
+msgid ""
+"Te rugăm să te autentifici pentru a efectua testul și/sau a-ți accesa "
+"rezultatele."
+msgstr ""
+"Veuillez vous connecter pentru a passer le test et/ou accéder à vos "
+"résultats."
+
+#: .\quizz\templates\registration\login.html:158
+msgid "Utilizator sau parolă incorectă!"
+msgstr "Nom d'utilisateur ou mot de passe incorrect !"
+
+#: .\quizz\templates\registration\login.html:166
+msgid "Nume utilizator"
+msgstr "Nom d'utilisateur"
+
+#: .\quizz\templates\registration\login.html:170
+msgid "Parolă"
+msgstr "Mot de passe"
+
+#: .\quizz\templates\registration\login.html:174
+msgid "Intră în cont"
+msgstr "Se connecter"
+
+#: .\quizz\templates\registration\login.html:178
+msgid "Nu ai un cont?"
+msgstr "Vous n'avez pas de compte ?"
+
+#: .\quizz\templates\registration\login.html:178
+msgid "Înregistrează-te acum"
+msgstr "Inscrivez-vous maintenant"
+
+#: .\quizz\templates\registration\signup.html:6
+msgid "Înregistrare - Test Temperament"
+msgstr "Inscription - Test de Tempérament"
+
+#: .\quizz\templates\registration\signup.html:117
+msgid "Creează un cont nou"
+msgstr "Créer un nouveau compte"
+
+#: .\quizz\templates\registration\signup.html:135
+msgid "Înregistrează-te"
+msgstr "Inscrivez-vous"
+
+#: .\quizz\templates\registration\signup.html:139
+msgid "Ai deja un cont?"
+msgstr "Vous avez déjà un compte ?"
+
+#: .\quizz\templates\registration\signup.html:139
+msgid "Autentifică-te aici"
+msgstr "Connectez-vous ici"
+
+#: .\test_temperament\settings.py:77
+msgid "Română"
+msgstr "Roumain"
+
+#: .\test_temperament\settings.py:78
+msgid "Français"
+msgstr "Français"
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:33
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:35
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:36
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:37
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:153
+#: .\venv\Lib\site-packages\django\forms\fields.py:774
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:309
+#: .\venv\Lib\site-packages\django\core\validators.py:318
+#: .\venv\Lib\site-packages\django\core\validators.py:332
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:320
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:514
+#: .\venv\Lib\site-packages\django\forms\fields.py:365
+#: .\venv\Lib\site-packages\django\forms\fields.py:404
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1633
+#: .\venv\Lib\site-packages\django\forms\models.py:932
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1635
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:20
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1161
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1164
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1214
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1216
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1325
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1426
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1430
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1565
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1434
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1561
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1569
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1574
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1701
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1703
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1868
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1920
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2188
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2219
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2310
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:244
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:420
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:978
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:981
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1275
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1332
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1334
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1382
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to
+#. the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:188
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:92
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:314
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:485
+#: .\venv\Lib\site-packages\django\forms\fields.py:1251
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:508
+#: .\venv\Lib\site-packages\django\forms\fields.py:1252
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:535
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:569
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:570
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:639
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:640
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:641
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:643
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:648
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:716
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:872
+#: .\venv\Lib\site-packages\django\forms\fields.py:959
+#: .\venv\Lib\site-packages\django\forms\models.py:1621
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:961
+#: .\venv\Lib\site-packages\django\forms\fields.py:1080
+#: .\venv\Lib\site-packages\django\forms\models.py:1619
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1081
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1323
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1353
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:97
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:925
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:930
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:937
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:946
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1383
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1474
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1623
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:528
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:529
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:530
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:869
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:870
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:871
+msgid "No"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:34
+msgctxt "Task"
+msgid "Ready"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:36
+msgctxt "Task"
+msgid "Running"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:38
+msgctxt "Task"
+msgid "Failed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\tasks\base.py:40
+msgctxt "Task"
+msgid "Successful"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:878
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:908
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:925
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:927
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:929
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:931
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:933
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:935
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:288
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:307
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:353
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:68
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:8
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""

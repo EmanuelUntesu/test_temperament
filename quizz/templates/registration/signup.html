@@ -1,8 +1,9 @@
+{% load i18n %}
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
-    <title>Înregistrare - Test Temperament</title>
+    <title>{% trans "Înregistrare - Test Temperament" %}</title>
     <style>
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -12,7 +13,7 @@
             align-items: center; 
             min-height: 100vh; 
             margin: 0; 
-            padding: 20px; /* Previne lipirea de margini pe mobil */
+            padding: 20px;
         }
         .card { 
             background: white; 
@@ -20,89 +21,100 @@
             border-radius: 12px; 
             box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
             width: 100%;
-            max-width: 450px; /* Signup-ul are nevoie de puțin mai mult spațiu pentru textele de ajutor la parolă */
+            max-width: 450px;
+            position: relative;
         }
+
+        /* Stil pentru butoanele de limbă (Identic cu Login) */
+        .lang-switcher {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            gap: 10px;
+        }
+        .lang-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+        }
+        .lang-btn:hover, .lang-btn.active {
+            opacity: 1;
+        }
+        .lang-btn img {
+            width: 24px;
+            height: auto;
+            border-radius: 2px;
+        }
+
         h2 { 
             text-align: center; 
             color: #2c3e50; 
             margin-bottom: 25px; 
         }
-        form p { 
-            margin-bottom: 15px; 
-            color: #666;
-            font-size: 0.9em;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: 600;
-            color: #444;
-        }
-        /* Stilul pentru input-uri, identic cu cel de Login */
+        form p { margin-bottom: 15px; color: #666; font-size: 0.9em; }
+        label { display: block; margin-bottom: 5px; font-weight: 600; color: #444; }
+        
         input { 
-            width: 100%; 
-            padding: 12px; 
-            box-sizing: border-box; 
-            border: 1px solid #ddd; 
-            border-radius: 6px; 
-            font-size: 16px;
-            margin-bottom: 5px;
+            width: 100%; padding: 12px; box-sizing: border-box; 
+            border: 1px solid #ddd; border-radius: 6px; 
+            font-size: 16px; margin-bottom: 5px;
         }
-        input:focus {
-            outline: none;
-            border-color: #27ae60;
-            box-shadow: 0 0 5px rgba(39, 174, 96, 0.2);
-        }
-        /* Stilul pentru textele de ajutor (helptext) de la Django */
-        .helptext {
-            display: block;
-            font-size: 0.8em;
-            color: #888;
-            margin-bottom: 15px;
-            line-height: 1.4;
-        }
-        ul.errorlist {
-            color: #e74c3c;
-            padding-left: 0;
-            list-style: none;
-            font-size: 0.85em;
-            margin-bottom: 10px;
-        }
-        button { 
-            width: 100%; 
-            padding: 12px; 
-            background: #27ae60; 
-            color: white; 
-            border: none; 
-            border-radius: 6px; 
-            cursor: pointer; 
-            font-size: 18px; 
-            font-weight: bold;
-            margin-top: 15px; 
+        input:focus { outline: none; border-color: #27ae60; box-shadow: 0 0 5px rgba(39, 174, 96, 0.2); }
+        
+        .helptext { display: block; font-size: 0.8em; color: #888; margin-bottom: 15px; line-height: 1.4; }
+        ul.errorlist { color: #e74c3c; padding-left: 0; list-style: none; font-size: 0.85em; margin-bottom: 10px; }
+        
+        button.submit-btn { 
+            width: 100%; padding: 12px; background: #27ae60; color: white; 
+            border: none; border-radius: 6px; cursor: pointer; 
+            font-size: 18px; font-weight: bold; margin-top: 15px; 
             transition: background 0.3s;
         }
-        button:hover { 
-            background: #219150; 
-        }
-        .footer-links { 
-            text-align: center; 
-            margin-top: 25px; 
-            font-size: 14px; 
-            color: #666;
-        }
-        .footer-links a {
-            color: #27ae60;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .footer-links a:hover {
-            text-decoration: underline;
-        }
+        button.submit-btn:hover { background: #219150; }
+        
+        .footer-links { text-align: center; margin-top: 25px; font-size: 14px; color: #666; }
+        .footer-links a { color: #27ae60; text-decoration: none; font-weight: bold; }
+        .footer-links a:hover { text-decoration: underline; }
+        .password-wrapper {
+    position: relative;
+    display: block;
+    }
+
+    .toggle-password {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 14px;
+        color: #666;
+        padding: 5px;
+        z-index: 10;
+    }
     </style>
 </head>
 <body>
     <div class="card">
-        <h2>Creează un cont nou</h2>
+        <div class="lang-switcher">
+            <form action="{% url 'set_language' %}" method="post">
+                {% csrf_token %}
+                <input name="next" type="hidden" value="{{ request.get_full_path }}">
+                <button type="submit" name="language" value="ro" class="lang-btn {% if LANGUAGE_CODE == 'ro' %}active{% endif %}">
+                    <img src="https://flagcdn.com/w40/ro.png" alt="Română" title="Română">
+                </button>
+                <button type="submit" name="language" value="fr" class="lang-btn {% if LANGUAGE_CODE == 'fr' %}active{% endif %}">
+                    <img src="https://flagcdn.com/w40/fr.png" alt="Français" title="Français">
+                </button>
+            </form>
+        </div>
+
+        <h2>{% trans "Creează un cont nou" %}</h2>
         
         <form method="post">
             {% csrf_token %}
@@ -120,12 +132,38 @@
                     {% endfor %}
                 </p>
             {% endfor %}
-            <button type="submit">Înregistrează-te</button>
+            <button type="submit" class="submit-btn">{% trans "Înregistrează-te" %}</button>
         </form>
 
         <div class="footer-links">
-            Ai deja un cont? <a href="{% url 'login' %}">Autentifică-te aici</a>
+            {% trans "Ai deja un cont?" %} <a href="{% url 'login' %}">{% trans "Autentifică-te aici" %}</a>
         </div>
     </div>
+    <script>
+        document.querySelectorAll('input[type="password"]').forEach(function(passwordInput) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'password-wrapper';
+            passwordInput.parentNode.insertBefore(wrapper, passwordInput);
+            wrapper.appendChild(passwordInput);
+
+            const toggleBtn = document.createElement('button');
+            toggleBtn.type = 'button';
+            toggleBtn.className = 'toggle-password';
+            // Simbolul inițial (parola este ascunsă)
+            toggleBtn.innerHTML = '&#128274;'; // Codul pentru lăcătel închis 🔒
+            toggleBtn.style.fontSize = '18px';
+            wrapper.appendChild(toggleBtn);
+
+            toggleBtn.addEventListener('click', function() {
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    this.innerHTML = '&#128275;'; // Lăcătel deschis 🔓
+                } else {
+                    passwordInput.type = 'password';
+                    this.innerHTML = '&#128274;'; // Lăcătel închis 🔒
+                }
+            });
+        });
+    </script>
 </body>
 </html>
