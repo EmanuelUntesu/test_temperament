@@ -8,7 +8,7 @@ LOCALE_PATHS = [BASE_DIR / 'locale']
 
 # --- SECURITY ---
 SECRET_KEY = 'django-insecure-3+&=ccik4#pp2%^19u3e72v)^60!g^13j8e4+w*=d#an-#v-qn'
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 # --- APPS ---
